@@ -1,5 +1,10 @@
 # Algoritmusok és adatszerkezetek 2.
 
-Használt nyelv: Python
+*Gyakorlatvezető: Nagy Ádám*<br>
+*2019 tavasz*
 
-- [Huffman algoritmus kódolása és dekódolása](huffman.py)
+Használt nyelv: **Python**
+
+## Algoritmusok:
+
+- [Huffman algoritmus kódolása és dekódolása](algoritmusok/huffman.py)
