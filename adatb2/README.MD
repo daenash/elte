@@ -19,6 +19,13 @@ Egy egyszerű terminál ablakot nyitunk, és az alábbi kódot használjuk, ahol
 ```
 ssh -N -L 4444:aramis.inf.elte.hu:1521 caesar_kod@caesar.elte.hu
 ```
+Ezután a jelszavunkat fogja kérni a terminál. Miután megadtuk, tudunk csatlakozni az adatbázishoz.
+
+**FONTOS**<br>
+Ha Tunnelt használunk, akkor az adatbázishoz való csatlakozáskor a lokális portot kell megadnunk. Például SQL Developerben a:
+- Hostname: `localhost`
+- Port: `4444` (a kiválasztott port)
+- Service name: `aramis.inf.elte.hu`
 
 ## Gyakorlatok és házi feladatok
 
