@@ -11,5 +11,7 @@ Email - daenash@gmail.com
 
 ## Tárgyak:
 
-- [Algoritmusok és adatszerkezetek 2.](/algo2/)
+- 2019 tavasz:
+    - [Algoritmusok és adatszerkezetek 2.](/algo2/)
+    - [Adatbázisok 2.](/algo2/)
 
