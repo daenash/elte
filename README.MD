@@ -12,6 +12,8 @@ Email - daenash@gmail.com
 ## Tárgyak:
 
 - 2019 tavasz:
-    - [Algoritmusok és adatszerkezetek 2.](algo2/)
-    - [Adatbázisok 2.](adatb2/)
+    - [Adatbázisok 2.](adatb2/README.MD)
+    - [Algoritmusok és adatszerkezetek 2.](algo2/README.MD)
+    - [Programozái Nyelvek I. C++](cpp/README.MD)
+    - [Operációs rendszerek](opre/README.MD)
 
