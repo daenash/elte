@@ -14,6 +14,7 @@ Email - daenash@gmail.com
 - 2019 tavasz:
     - [Adatbázisok 2.](adatb2/)
     - [Algoritmusok és adatszerkezetek 2.](algo2/)
+    - [Logika és számításelmélet](logika/)
     - [Programozái Nyelvek I. C++](cpp/)
     - [Operációs rendszerek](opre/)
 
