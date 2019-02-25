@@ -1,0 +1,1 @@
+clang++ -o main.out main.cpp weapon/weapon.cpp player/player.cpp
