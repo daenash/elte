@@ -11,3 +11,8 @@ Használt nyelv: **C++**
 Névterek, mutatók
 - [2. gyakorlat](gyak2/main.cpp)<br>
 Osztály definiálása, annak használata
+
+## Beadandók:
+
+- [1. Beadandó](bead1)<br>
+Osztályok alkalmazásával készített feladat
