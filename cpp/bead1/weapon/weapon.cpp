@@ -1,6 +1,6 @@
 #include "weapon.h"
 
-Weapon::Weapon(std::string type_, double damage_, int ammo_, int accuracy_)
+Weapon::Weapon(const std::string& type_, double damage_, int ammo_, int accuracy_)
 {
     type = type_;
     damage = damage_;
@@ -9,22 +9,22 @@ Weapon::Weapon(std::string type_, double damage_, int ammo_, int accuracy_)
     count++;
 }
 
-std::string Weapon::getType()
+std::string Weapon::getType() const
 {
     return type;
 }
 
-double Weapon::getDamage()
+double Weapon::getDamage() const
 {
     return damage;
 }
 
-int Weapon::getAmmo()
+int Weapon::getAmmo() const
 {
     return ammo;
 }
 
-int Weapon::getAccuracy()
+int Weapon::getAccuracy() const
 {
     return accuracy;
 }

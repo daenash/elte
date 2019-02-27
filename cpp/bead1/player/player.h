@@ -1,40 +1,38 @@
-#ifndef player_H
-#define player_H
-
-#include <iostream>
-#include <vector>
+#ifndef player_h
+#define player_h
 #include "../weapon/weapon.h"
+#include <vector>
 
 class Player
 {
 
-  public:
-    static int count;
-    friend int getPlayerCount();
+public:
+  static int count;
+  friend int getPlayerCount();
 
-    // Default konstruktor
-    Player();
-    
-    // Saját konstruktor
-    Player(std::string firstName_, std::string lastName_, double weight_, int height_, int inventorySize_);
+  // Default konstruktor
+  Player();
 
-    // Getterek
-    std::string getName();
-    double getWeight();
-    int getHeight();
-    int getInventorySize();
+  // Saját konstruktor
+  Player(const std::string& firstName_, const std::string& lastName_, double weight_, int height_, int inventorySize_);
 
-    // Fegyver hozzáadása
-    void addWeapon(Weapon weapon_);
+  // Getterek
+  const std::string getName() const;
+  double getWeight() const;
+  int getHeight() const;
+  int getInventorySize() const;
 
-    // Fegyverek neveinek kiíratása
-    void printWeapons();
+  // Fegyver hozzáadása
+  void addWeapon(Weapon weapon_);
 
-  private:
-    std::string firstName, lastName;
-    double weight;
-    int height, inventorySize;
-    std::vector<Weapon> weaponSlot;
+  // Fegyverek neveinek kiíratása
+  void printWeapons() const;
+
+private:
+  std::string firstName, lastName;
+  double weight;
+  int height, inventorySize;
+  std::vector<Weapon> weaponSlot;
 };
 
 #endif

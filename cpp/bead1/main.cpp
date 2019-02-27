@@ -1,11 +1,10 @@
 // Készítette: Gutai Dénes
 
-#include <iostream>
 #include "weapon/weapon.h"
 #include "player/player.h"
 
 // Fegyver kiírására szolgáló segédfüggvény
-void printWeapon(Weapon weapon)
+void printWeapon(const Weapon& weapon)
 {
     std::cout << "Fegyver adatai: " << std::endl;
     std::cout << "- típus: " << weapon.getType() << std::endl;
@@ -16,7 +15,7 @@ void printWeapon(Weapon weapon)
 }
 
 // Játékos kiírására szolgáló segédfüggvény
-void printPlayer(Player player)
+void printPlayer(const Player& player)
 {
     std::cout << "Játékos adatai: " << std::endl;
     std::cout << "- neve: " << player.getName() << std::endl;

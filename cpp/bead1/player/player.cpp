@@ -10,7 +10,7 @@ Player::Player()
     count++;
 }
 
-Player::Player(std::string firstName_, std::string lastName_, double weight_, int height_, int inventorySize_)
+Player::Player(const std::string &firstName_, const std::string &lastName_, double weight_, int height_, int inventorySize_)
 {
     firstName = firstName_;
     lastName = lastName_;
@@ -28,20 +28,21 @@ Player::Player(std::string firstName_, std::string lastName_, double weight_, in
     count++;
 }
 
-std::string Player::getName()
+const std::string Player::getName() const
 {
     return firstName + " " + lastName;
 }
-double Player::getWeight()
+
+double Player::getWeight() const
 {
     return weight;
 }
 
-int Player::getHeight()
+int Player::getHeight() const
 {
     return height;
 }
-int Player::getInventorySize()
+int Player::getInventorySize() const
 {
     return inventorySize;
 }
@@ -59,7 +60,7 @@ void Player::addWeapon(Weapon weapon_)
     }
 }
 
-void Player::printWeapons()
+void Player::printWeapons() const
 {
     std::string weaponNames = "";
     if (weaponSlot.size() == 0)

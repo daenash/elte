@@ -1,7 +1,7 @@
-#ifndef weapon_H
-#define weapon_H
-
+#ifndef weapon_h
+#define weapon_h
 #include <iostream>
+
 
 class Weapon
 {
@@ -11,13 +11,13 @@ public:
   friend int getWeaponCount();
 
   // Saját konstruktor
-  Weapon(std::string type_, double damage_, int ammo_ = 0, int accuracy_ = 0);
+  Weapon(const std::string& type_, double damage_, int ammo_ = 0, int accuracy_ = 0);
 
   // Getterek
-  std::string getType();
-  double getDamage();
-  int getAmmo();
-  int getAccuracy();
+  std::string getType() const;
+  double getDamage() const;
+  int getAmmo() const;
+  int getAccuracy() const;
 
   // Setterek
   void setDamage(double damage_);
