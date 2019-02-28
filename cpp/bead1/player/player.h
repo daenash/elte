@@ -17,7 +17,7 @@ public:
   Player(const std::string& firstName_, const std::string& lastName_, double weight_, int height_, int inventorySize_);
 
   // Getterek
-  const std::string getName() const;
+  const std::string& getName() const;
   double getWeight() const;
   int getHeight() const;
   int getInventorySize() const;
@@ -29,7 +29,7 @@ public:
   void printWeapons() const;
 
 private:
-  std::string firstName, lastName;
+  std::string firstName, lastName, fullName;
   double weight;
   int height, inventorySize;
   std::vector<Weapon> weaponSlot;

@@ -8,6 +8,7 @@ Player::Player()
     weight = 0;
     inventorySize = 3;
     count++;
+    fullName = firstName + " " + lastName;
 }
 
 Player::Player(const std::string &firstName_, const std::string &lastName_, double weight_, int height_, int inventorySize_)
@@ -16,6 +17,7 @@ Player::Player(const std::string &firstName_, const std::string &lastName_, doub
     lastName = lastName_;
     weight = weight_;
     height = height_;
+    fullName = firstName + " " + lastName;
 
     if (inventorySize_ < 1 || inventorySize_ > 5)
     {
@@ -28,9 +30,9 @@ Player::Player(const std::string &firstName_, const std::string &lastName_, doub
     count++;
 }
 
-const std::string Player::getName() const
+const std::string &Player::getName() const
 {
-    return firstName + " " + lastName;
+    return fullName;
 }
 
 double Player::getWeight() const
