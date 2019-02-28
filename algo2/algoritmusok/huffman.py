@@ -5,14 +5,12 @@
 # coded by Denes Gutai
 
 print
-print("##############################")
-print("#                            #")
-print("#     huffman algoritmus     #")
-print("#                            #")
-print("##############################")
+print("------------------------------------------")
+print("||          Huffman algoritmus          ||")
+print("------------------------------------------")
+print
 
 # Input string to be encoded
-print
 string = raw_input("Írja be a kódolandó szöveget: ")
 print
 print("Kódolandó szöveg:")
