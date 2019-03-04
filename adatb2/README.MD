@@ -30,3 +30,6 @@ Ha Tunnelt használunk, akkor az adatbázishoz való csatlakozáskor a lokális 
 ## Gyakorlatok és házi feladatok
 
 - [1. gyakorlat feladatok és megoldások](gyakorlatok/gyak_1.sql)
+- [2. gyakorlat feladatok és megoldások](gyakorlatok/gyak_2.sql)
+- [3. gyakorlat feladatok és megoldások](gyakorlatok/gyak_3.sql)
+- [4. gyakorlat feladatok és megoldások](gyakorlatok/gyak_4.sql)
