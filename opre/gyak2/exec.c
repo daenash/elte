@@ -23,7 +23,7 @@ int main()
     char * arg[]={"./write","Operating Systems","5",NULL}; 
     printf("./write program will be called by execv function\n");
     execv(cmd,arg);
-    printf("It never returns to child process (except on error)- the content of the whole child process will be changed to the new one");
+    printf("It never returns to child process (except on error)- the content of the whole child process will be changed to the new one\n");
  }
  return 0;
 }
