@@ -5,11 +5,6 @@
 Python script:<br>
 [bitvector.py](bitvector.py)
 
-## Elmélet:
-
-Kódolandó **bitvektor**<br>
-`10000000000000000000000010000000101`
-
 ## A kódolás lépései:
 
 1. Addig olvasunk, amíg `1` bitet nem találunk.
@@ -18,6 +13,9 @@ Kódolandó **bitvektor**<br>
 4. Beszúrunk `i-1` db `1` bitet és 1 db `0` bitet a kódolt stringbe, illetve mögé az átalakított bináris számot
 
 ## Például:
+
+Kódolandó **bitvektor**<br>
+`10000000000000000000000010000000101`
 
 Olvassuk sorban a biteket, amíg `1` bitet nem találunk.
 
