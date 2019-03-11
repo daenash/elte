@@ -33,3 +33,7 @@ Ha Tunnelt használunk, akkor az adatbázishoz való csatlakozáskor a lokális 
 - [2. gyakorlat feladatok és megoldások](gyakorlatok/gyak_2.sql)
 - [3. gyakorlat feladatok és megoldások](gyakorlatok/gyak_3.sql)
 - [4. gyakorlat feladatok és megoldások](gyakorlatok/gyak_4.sql)
+
+## Algoritmusok
+
+- [Bitvektorok kódolása](gyakorlatok/bitvector/bitvektor_tomorites.md)

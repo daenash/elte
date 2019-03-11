@@ -1,5 +1,12 @@
 # Bitvektor tömörítés
 
+## Átalakító script
+
+Python script:<br>
+[bitvector.py](bitvector.py)
+
+## Elmélet:
+
 Kódolandó **bitvektor**<br>
 `10000000000000000000000010000000101`
 
