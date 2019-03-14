@@ -11,11 +11,11 @@ Használt nyelv: **C++**
 Névterek, mutatók
 - [2. gyakorlat](gyak2/main.cpp)<br>
 Osztály definiálása, annak használata
-- [3. gyakorlat](gyak2/main.cpp)<br>
+- [3. gyakorlat](gyak3/main.cpp)<br>
 Copy konstruktorok, dinamikus memóriatér
-- [4. gyakorlat](gyak2/main.cpp)<br>
+- [4. gyakorlat](gyak4/main.cpp)<br>
 Operátor overloading
-- [5. gyakorlat](gyak2/main.cpp)<br>
+- [5. gyakorlat](gyak5/main.cpp)<br>
 Származtatás, unique pointer
 
 
